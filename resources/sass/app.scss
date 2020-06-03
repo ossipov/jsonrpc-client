@@ -1,0 +1,27 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+
+
+.flash {
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-name: fade;
+  animation-duration: 5s; 
+}
+
+@keyframes fade {
+  90% {
+    opacity: 1;
+    height: auto;
+  }
+  100% {
+    opacity: 0!important;  
+    height: 0!important;
+  }
+}
