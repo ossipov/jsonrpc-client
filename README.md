@@ -5,7 +5,7 @@
 * PHP 7.2+
 * Composer
 * Yarn
-* (JSON-RPC Server)[https://github.com/ossipov/jsonrpc-client]
+* JSON-RPC Server — https://github.com/ossipov/jsonrpc-client
 
 ## Installation 
 
@@ -29,4 +29,4 @@ Now just run local server
 php artisan serve
 ```
 
-If port 8000 is not busy by some other proccess client should be availabe at (http://127.0.0.1:8000)[(http://127.0.0.1:8000)]
+If port 8000 is not busy by some other proccess client should be availabe at http://127.0.0.1:8000
