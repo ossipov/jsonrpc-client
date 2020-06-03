@@ -5,7 +5,7 @@
 * PHP 7.2+
 * Composer
 * Yarn
-* JSON-RPC Server — https://github.com/ossipov/jsonrpc-client
+* JSON-RPC Server — https://github.com/ossipov/jsonrpc-server
 
 ## Installation 
 
